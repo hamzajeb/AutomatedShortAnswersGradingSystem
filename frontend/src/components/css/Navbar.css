@@ -1,0 +1,230 @@
+.navbar__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 14vh;
+    left: -100%;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    transition: all 0.5s ease;
+    padding: 0 !important;
+    background-color: black ;
+    opacity: 0.75;
+    
+  }
+  .css-hlj6pa-MuiDialogActions-root{
+    padding: 0;
+  }
+  .box3{
+    position: absolute;
+    top: 0vh;
+    left: 27vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 43, 54);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+    box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    border-radius: 16px;
+    z-index: 0;
+    width: 55vw;
+   display: flex;
+    flex-direction: column;
+
+  }
+  .box2{
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 43, 54);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+    box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    border-radius: 16px;
+    z-index: 0;
+    width: 25vw;
+   display: flex;
+    flex-direction: column;
+  }
+  .box1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 43, 54);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-image: none;
+    overflow: hidden;
+
+    box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    border-radius: 16px;
+    z-index: 0;
+    width: 25vw;
+    height: 43vh;
+  }
+  .description{
+    margin: 0 2.5vw 1.5vh;
+  }
+
+  .description12{
+    margin: 0 2.5vw 1.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    word-break: break-all;
+  }
+  .description12:hover{
+    cursor: pointer;
+    /* color: blue; */
+    text-decoration: underline;
+  }
+  .description1{
+    margin: 0 2.5vw 1.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    word-break: break-all;
+  }
+
+  .icon{
+    margin-right: 1vw;
+  }
+  .about{
+    margin: 3.5vh 2.5vw 1.5vh;
+    font-weight: 700;
+    line-height: 1.55556;
+    font-size: 1.2rem;
+    font-family: "Public Sans", sans-serif;
+    display: block;
+  }
+
+  .css-ypiqx9-MuiDialogContent-root{
+    padding: 0 !important;
+  }
+
+  .firstname{
+   color:white !important;
+   font-weight: 700 !important;
+   line-height: 1.2 !important;
+   font-size: 2rem !important;
+   font-family: "Public Sans", sans-serif !important;
+  }
+
+  .email{
+    font-size: 1rem !important;
+    font-family: "Public Sans", sans-serif !important;
+  }
+  
+  .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    max-width: 75vw !important;
+    width: 75vw !important;
+    height: 97vh !important;
+    max-height: 97vh !important;
+  }
+  .Box {
+    position: relative;
+    height: 100%;
+  }
+
+  .css-heg063-MuiTabs-flexContainer {
+    justify-content: space-around;
+}
+
+  .navbar__list--active {
+    left: 0;
+  }
+
+  .navbar__menu {
+    display: block;
+  }
+
+  .navbar__item {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    flex: 1;
+  }
+  .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    border-radius: 0 !important;
+    background-color: transparent !important;
+  }
+
+  
+
+ .tab{
+   font-weight:bold !important;
+   font-size: 16px;
+   text-align: center;
+    text-transform: uppercase;
+    font-family: Assistant;
+    font-weight: 600;
+    letter-spacing: 0;
+ }
+ /* .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: burlywood !important;
+}
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: wheat !important;
+} */
+ .BoxDialog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  grid-template-rows: auto; /* Automatically sized rows */
+  column-gap: 4vw; /* Spacing between grid items */
+  row-gap:7vh;
+}
+.css-jsexje-MuiSwitch-thumb{
+  background-color:rgb(253 213 153) !important;
+}
+
+
+.css-8vnh0h-MuiPaper-root-MuiAlert-root{
+  background-color: rgb(255, 216, 157) !important;
+  color: grey;
+}
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root{
+  color: rgb(191 39 16 / 94%) !important;
+}
+.css-1pxa9xg-MuiAlert-message{
+  color: rgb(191 39 16 / 94%);
+}
+.css-ki1hdl-MuiAlert-action{
+  color: rgb(191 39 16 / 94%);
+}
+
+.css-1ytlwq5-MuiAlert-icon{
+  color: rgb(191 39 16 / 94%);
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: rgb(253 213 153) !important;
+}
+
+.BoxDialog1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Two equal-width columns */
+  grid-template-rows: auto; /* Automatically sized rows */
+  column-gap: 4vw; /* Spacing between grid items */
+  row-gap:7vh;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  background-color: white !important;
+}
+
+
+  .navbar__item:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(244, 224, 224, 0.2), 0px -10px 20px rgba(244, 224, 224, 0.2);
+    /* box-shadow: 30px 10px 20px rgba(244, 224, 224, 0.2);  */
+    opacity: 1;
+  }
+
+  

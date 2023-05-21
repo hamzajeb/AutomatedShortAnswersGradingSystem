@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  flask-app:
+    build: ./backend
+    command: python -u index.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    depends_on:
+      - mongodb
+    environment:
+      MONGO_URI: "mongodb://mongodb:27017/MLProjet"
+  mongodb:
+    image: mongo:latest
+    ports: 
+        - "27018:27017"
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    # volumes:
+    #   - ./frontend1/src:/app
+    depends_on:
+      - flask-app
+
+
+    # environment:
+    #   MONGO_INITDB_DATABASE: user
+    #   MONGO_INITDB_ROOT_USERNAME: root
+    #   MONGO_INITDB_ROOT_PASSWORD: example
+    #   MONGO_INITDB_USERNAME: myuser
+    #   MONGO_INITDB_PASSWORD: mypassword
+    # command: mongod --bind_ip_all --auth
+
+
+# La commande mongod --bind_ip_all --auth est utilisée pour démarrer le serveur MongoDB dans un conteneur Docker.
+
+#Plus précisément, l'option --bind_ip_all permet de lier le serveur MongoDB à toutes les adresses IP disponibles 
+# sur le conteneur Docker, ce qui permet aux clients externes de se connecter au serveur. L'option --auth active 
+# l'authentification pour le serveur MongoDB, ce qui oblige les clients à fournir des informations d'identification 
+# valides pour se connecter au serveur.
+
+# En incluant cette commande dans le Dockerfile, on s'assure que le serveur MongoDB sera correctement configuré et 
+# démarré lorsqu'on exécute le conteneur Docker. Cela permet à l'application Flask de se connecter au serveur MongoDB 
+# et d'interagir avec la base de données MongoDB.
+

@@ -1,0 +1,47 @@
+.c {
+    height: 50vh;
+    width: 960px;
+    margin: auto;
+    max-width: 95%;
+    overflow: auto;
+
+}
+
+
+::-webkit-scrollbar-track
+{
+	/* border: 15px solid white; */
+	/* // border color does not support transparent on scrollbar*/
+	/* border-color: transparent;  */
+	background-color: white;
+   
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: rgb(191 39 16 / 94%);
+	border-radius: 10px;
+    
+}
+
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    color:#5C190F !important;
+    font-weight: bold !important;
+    transform: translate(-50%, -50%) !important;
+    top:50% !important;
+    left: 50% !important;
+    
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+    background-color: white !important;
+    border-radius: 30px;
+    text-align: center !important;
+}

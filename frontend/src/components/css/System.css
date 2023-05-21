@@ -1,0 +1,202 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+
+.class1 {
+    position: absolute;
+    top: -150px;
+    left: -50px;
+    transform: translate(0px, 120px) perspective(5200px) rotate(87deg) rotateY(330deg) rotateZ(285deg);
+    transform-style: preserve-3d;
+    width: 580px;
+    height: 300px;
+}
+
+.child1{
+    animation: 2.1s ease-in-out 2.1s infinite alternate none running float;
+    width: 100%;
+    height: 100%;
+}
+
+.child11{
+    color: rgb(34, 51, 84);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    box-shadow: rgba(159, 162, 191, 0.18) 0px 9px 16px, rgba(159, 162, 191, 0.32) 0px 2px 2px;
+    overflow: hidden;
+    padding: 15px;
+    background: rgb(242, 245, 249);
+    width: 100%;
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+.text{
+    margin: 0px;
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 1.875rem;
+    line-height: 1.375;
+    font-weight: 700;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: -0.125px;
+}
+
+.css-iymoya-MuiPaper-root-MuiCard-root{
+    margin: 0 !important;
+}
+.css-iymoya-MuiPaper-root-MuiCard-root{
+   max-width: 420px !important;
+   height: 100% !important; 
+}
+.dialogStyle{
+    width: 420px!important;
+    max-height: 62vh !important;
+
+}
+
+
+
+
+.buttonText{
+    font-family: "Roboto Slab", sans-serif !important;
+    font-size: 1.875rem !important;
+    line-height: 1.375 !important;
+    font-weight: 700 !important;
+    background-color:"rgb(191 39 16 / 94%)" !important;
+    text-transform: "none" !important
+}
+
+.boxQuestion{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.boxQuestion1{
+    box-shadow: rgba(0, 0, 0, 0.14) 0rem 0.25rem 1.25rem 0rem, rgb(191 39 16 / 94%) 0rem 0.4375rem 0.625rem -0.3125rem;
+}
+
+
+
+.class2{
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    transform: translate(0px, 120px) perspective(5200px) rotate(87deg) rotateY(330deg) rotateZ(285deg);
+    transform-style: preserve-3d;
+    width: 580px;
+    height: 300px;
+}
+.child2{
+    animation: 1.5s ease-in-out 1s infinite alternate none running float;
+    width: 100%;
+    height: 100%;
+}
+
+.child22{
+    color: rgb(34, 51, 84);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    box-shadow: rgba(159, 162, 191, 0.18) 0px 9px 16px, rgba(159, 162, 191, 0.32) 0px 2px 2px;
+    overflow: hidden;
+    padding: 15px;
+    background: rgb(242, 245, 249);
+    width: 100%;
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+
+.class3{
+    position: absolute;
+    top: 120px;
+    left: -60px;
+    transform: translate(0px, 120px) perspective(5200px) rotate(87deg) rotateY(330deg) rotateZ(285deg);
+    transform-style: preserve-3d;
+    width: 580px;
+    height: 300px;
+}
+.child3{
+    animation: 2.8s ease-in-out 1.2s infinite alternate none running float;
+    width: 100%;
+    height: 100%;
+}
+
+.child33{
+    color: rgb(34, 51, 84);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 10px;
+    box-shadow: rgba(159, 162, 191, 0.18) 0px 9px 16px, rgba(159, 162, 191, 0.32) 0px 2px 2px;
+    overflow: hidden;
+    padding: 15px;
+    background: rgb(242, 245, 249);
+    width: 100%;
+    height: 100%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
+    font-family: 'Cairo', sans-serif !important;
+    font-size: 15px !important;
+}
+.reponse{
+    font-family: 'Cairo', sans-serif !important;
+}
+.question{
+    font-family: 'Cairo', sans-serif !important;
+}
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
+    direction: rtl !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    font-family: 'Cairo', sans-serif !important;
+    font-size: 18px !important;
+}
+/* .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root */
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root{
+    font-family: 'Cairo', sans-serif !important;
+    left:80% !important;
+}
+
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    text-align: right !important;
+}
+.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(191 39 16 / 94%) !important;
+    border-width: 2px;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root{
+    top: -0.5vh !important;
+    padding: 0 10px !important;
+    background-color: white !important;
+}
+
+  .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: rgb(191 39 16 / 94%) !important;
+
+    z-index: 10;
+}
+.css-14lo706{
+    display: none !important;
+}
+
+
+
+@keyframes float {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(3%, 3%);
+    }
+}
+
